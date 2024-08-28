@@ -158,15 +158,14 @@ class ColorPickerDialog extends StatelessWidget {
   const ColorPickerDialog({
     required this.selectedColor,
     required this.onColorSelected,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
     // Convert both lists to List<Color> to avoid type issues.
     final List<Color> colors = [
       ...Colors.primaries,
-      ...Colors.accents,
     ].map((color) => color as Color).toList();
 
     return Dialog(
