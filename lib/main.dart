@@ -67,8 +67,8 @@ class MaterialColorsScreen extends StatelessWidget {
     required this.onBrightnessChanged,
     required this.onColorSelected,
     required this.useLightMode,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
