@@ -113,7 +113,7 @@ class MaterialColorsScreen extends StatelessWidget {
               _buildColorBlock('Tertiary Container', colorScheme.tertiaryContainer, colorScheme.onTertiaryContainer),
               _buildColorBlock('Error', colorScheme.error, colorScheme.onError),
               _buildColorBlock('Error Container', colorScheme.errorContainer, colorScheme.onErrorContainer),
-              _buildColorBlock('Background', colorScheme.background, colorScheme.onBackground),
+              _buildColorBlock('Background', colorScheme.surface, colorScheme.onSurface),
               _buildColorBlock('Surface', colorScheme.surface, colorScheme.onSurface),
               _buildColorBlock('Inverse Surface', colorScheme.inverseSurface, colorScheme.onInverseSurface),
               _buildColorBlock('Outline', colorScheme.outline, colorScheme.surface),
